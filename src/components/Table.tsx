@@ -3,6 +3,7 @@ import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import Paper from "@mui/material/Paper";
 import { User } from "@/utils/userListing";
 
+// we are able to show avatar but images are not working
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 70 },
   { field: "first_name", headerName: "First name", width: 150 },
